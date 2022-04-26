@@ -2,7 +2,7 @@ codeprompt3.py
 
 def f(x):
   total = x**3 + 8
-  while total >26:
+  if total >26:
       print("YAY")
       return total
 
